@@ -46,7 +46,7 @@
   node server.js
 ### Use an API testing tool like Postman or cURL to upload a CSV file.
     - Open Postman and create a new POST request.
-    - Set the request URL to `http://localhost:3001/upload`.
+    - Set the request URL to `http://localhost:3000/upload`.
     - In the "Body" tab, select "form-data".
     - Add a new field with the key `file`, change the type to `File`, and select the CSV file from your system.
     - Click "Send".
