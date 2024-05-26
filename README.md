@@ -4,9 +4,7 @@
   - Node.js installed
   - MongoDB Atlas account
 # Installation:
-  ## Clone the repository:
-    git clone https://github.com/your-repo/crypto-trade-api.git
-    cd crypto-trade-api
+  ## Clone the repository
   ## Install dependencies:
     npm install
   ## Database Setup(Mongodb)
@@ -55,10 +53,10 @@
 
 ### Query Asset-Wise Balance
 
-## Send a `POST` request to the `/balance` endpoint with a JSON body containing the timestamp.
+#### Send a `POST` request to the `/balance` endpoint with a JSON body containing the timestamp.
 ### Example using Postman:
     - Open Postman and create a new POST request.
-    - Set the request URL to `http://localhost:3001/balance`.
+    - Set the request URL to `http://localhost:3000/balance`.
     - In the "Body" tab, select "raw" and choose "JSON" from the dropdown.
     - Enter the JSON body:
         ```json
